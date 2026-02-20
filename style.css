@@ -144,6 +144,45 @@ body{
     line-height:1.7;
 }
 
+
+@media (max-width: 768px){
+
+.hero{
+    flex-direction:column;
+    gap:40px;
+    padding:20px;
+    margin-top:0;
+}
+
+.left{
+    margin-top:0;
+    text-align:center;
+}
+
+.left h1{
+    font-size:28px;
+}
+
+.circle{
+    width:300px;
+    height:300px;
+    top:0;
+    right:0;
+    position:relative;
+}
+
+.right img{
+    width:250px;
+    margin:0;
+}
+
+.about-section{
+    margin-top:0;
+    padding:40px 20px;
+}
+
+}
+
 /* ================= Writing Page ================= */
 
 /* ================= Writing Page ================= */
@@ -293,7 +332,44 @@ body{
 }
 
 
-/* ===== New About Page Design ===== */
+@media (max-width: 768px){
+
+.bg-text{
+    font-size:120px;
+    letter-spacing:20px;
+    top:20%;
+}
+
+.center-content{
+    top:45%;
+}
+
+.portrait{
+    width:220px;
+}
+
+.timeline{
+    gap:15px;
+    bottom:100px;
+    overflow-x:auto;
+    padding:0 20px;
+}
+
+.timeline-item{
+    width:70px;
+    height:100px;
+}
+
+.email-btn,
+.home-btn{
+    bottom:20px;
+    padding:10px 18px;
+}
+
+}
+
+
+/* ===== New About Page Design ================================== */
 
 .about-page-new{
     margin:0;
@@ -416,4 +492,38 @@ body{
     background:white;
     color:#0f3d2e;
     border:2px solid #0f3d2e;
+}
+
+
+@media (max-width: 768px){
+
+.about-container{
+    height:auto;
+    padding-bottom:50px;
+}
+
+.center-image{
+    width:220px;
+    height:220px;
+}
+
+.corner{
+    position:relative;
+    width:100%;
+    padding:20px;
+    text-align:center !important;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right{
+    position:relative;
+    top:auto;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    color:black;
+}
+
 }

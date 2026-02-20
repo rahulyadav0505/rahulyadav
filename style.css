@@ -258,7 +258,7 @@ body{
 }
 
 .poem-item{
-    border-radius:16px;
+    border-radius:50;
     overflow:hidden;
     box-shadow:0 15px 35px rgba(0,0,0,0.4);
     transition:0.3s ease;
@@ -464,6 +464,7 @@ body{
     color:#0f3d2e;
     border:2px solid #0f3d2e;
 }
+
 
 
 

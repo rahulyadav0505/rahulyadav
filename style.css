@@ -220,7 +220,7 @@ body{
 /* Center Section */
 .center-content{
     text-align:center;
-    margin-top:180px;
+    margin-top:160px;
     position:relative;
     z-index:2;
 }
@@ -463,5 +463,6 @@ body{
     color:#0f3d2e;
     border:2px solid #0f3d2e;
 }
+
 
 

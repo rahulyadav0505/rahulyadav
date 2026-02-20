@@ -306,29 +306,6 @@ body{
 }
 
 
-
-
-
-/* Tablet */
-@media (max-width:1024px){
-    .poem-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-
-/* Mobile */
-@media (max-width:768px){
-    .poem-grid{
-        grid-template-columns:1fr;
-        gap:25px;
-    }
-
-    .poem-item img{
-        height:280px;
-    }
-}
-
-
 /* Bottom Buttons */
 .email-btn{
     position:absolute;
@@ -364,42 +341,6 @@ body{
     color:white;
 }
 
-
-@media (max-width: 768px){
-
-.bg-text{
-    font-size:120px;
-    letter-spacing:20px;
-    top:20%;
-}
-
-.center-content{
-    top:45%;
-}
-
-.portrait{
-    width:220px;
-}
-
-.timeline{
-    gap:15px;
-    bottom:100px;
-    overflow-x:auto;
-    padding:0 20px;
-}
-
-.timeline-item{
-    width:70px;
-    height:100px;
-}
-
-.email-btn,
-.home-btn{
-    bottom:20px;
-    padding:10px 18px;
-}
-
-}
 
 
 /* ===== New About Page Design ================================== */
@@ -527,36 +468,3 @@ body{
     border:2px solid #0f3d2e;
 }
 
-
-@media (max-width: 768px){
-
-.about-container{
-    height:auto;
-    padding-bottom:50px;
-}
-
-.center-image{
-    width:220px;
-    height:220px;
-}
-
-.corner{
-    position:relative;
-    width:100%;
-    padding:20px;
-    text-align:center !important;
-}
-
-.top-left,
-.top-right,
-.bottom-left,
-.bottom-right{
-    position:relative;
-    top:auto;
-    left:auto;
-    right:auto;
-    bottom:auto;
-    color:black;
-}
-
-}

@@ -201,26 +201,35 @@ body{
 /* Big Background Text */
 .bg-text{
     position:absolute;
-    top:20px;
+    top:-20px;
     left:50%;
     transform:translateX(-50%);
-    font-size:250px;
-    letter-spacing:40px;
+    font-size:300px;
+    letter-spacing:80px;
     margin:0;
     white-space:nowrap;
+    
 
-    background:linear-gradient(to bottom,#cfcfcf,#696868);
+    background:linear-gradient(
+        to bottom,
+        #fcf9f9,
+        #939292,
+        #454444
+    );
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
+    background-clip: text;
 
-    opacity:0.15;
-    z-index:0;
+
+    opacity:0.25;
+    z-index:2;
 }
 
 /* Center Section */
 .center-content{
+    
     text-align:center;
-    margin-top:160px;
+    margin-top:80px;
     position:relative;
     z-index:2;
 }
@@ -232,10 +241,11 @@ body{
 }
 
 .portrait{
-    width:100%;
-    top:40px;
+    width:150%;
+    margin-top:-0%;
+    margin-left:-20%;
     height:auto;
-    border-radius:50px;
+    border-radius:200px;
     object-fit:cover;
 }
 
@@ -465,6 +475,7 @@ body{
     color:#0f3d2e;
     border:2px solid #0f3d2e;
 }
+
 
 
 

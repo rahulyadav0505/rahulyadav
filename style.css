@@ -431,12 +431,12 @@ body{
 }
 
 .bottom-left{
-    bottom:22%;
+    top:55%;
     left:12%;
 }
 
 .bottom-right{
-    bottom:24%;
+    top:55%;
     right:12%;
     text-align:right;
 }
@@ -550,3 +550,4 @@ body{
 }
 
 }
+

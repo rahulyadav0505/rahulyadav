@@ -356,6 +356,7 @@ body{
 .about-page-new{
     margin:0;
     font-family:Arial, sans-serif;
+    background:white;
 }
 
 /* Split Background */
@@ -418,13 +419,13 @@ body{
 
 /* Positioning */
 .top-left{
-    bottom:68%;
+    bottom:64%;
     left:12%;
     color:white;
 }
 
 .top-right{
-    bottom:68%;
+    bottom:64%;
     right:12%;
     color:white;
     text-align:right;
@@ -550,6 +551,7 @@ body{
 }
 
 }
+
 
 
 

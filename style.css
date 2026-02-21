@@ -418,13 +418,13 @@ body{
 
 /* Positioning */
 .top-left{
-    bottom:65%;
+    bottom:68%;
     left:12%;
     color:white;
 }
 
 .top-right{
-    bottom:65%;
+    bottom:68%;
     right:12%;
     color:white;
     text-align:right;
@@ -550,6 +550,7 @@ body{
 }
 
 }
+
 
 
 

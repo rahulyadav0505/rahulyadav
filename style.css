@@ -418,26 +418,26 @@ body{
 
 /* Positioning */
 .top-left{
-    top:90px;
-    left:90px;
+    top:25%;
+    left:12%;
     color:white;
 }
 
 .top-right{
-    top:90px;
-    right:90px;
+    top:25%;
+    right:12%;
     color:white;
     text-align:right;
 }
 
 .bottom-left{
-    bottom:90px;
-    left:90px;
+    bottom:22%;
+    left:12%;
 }
 
 .bottom-right{
-    bottom:90px;
-    right:90px;
+    bottom:24%;
+    right:12%;
     text-align:right;
 }
 
@@ -462,6 +462,7 @@ body{
 .home-button a:hover{
     background:#0f3d2e;
     color:white;
+    border:2px solid white;
 }
 
 /* Contact Button */
@@ -487,17 +488,3 @@ body{
     color:#0f3d2e;
     border:2px solid #0f3d2e;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -186,7 +186,7 @@ body{
 /* ===== Premium Gradient Glass Project Cards ===== */
 
 .project-container{
-    margin-top:50px;
+    margin-top:70px;
     display:flex;
     justify-content:center;
     gap:50px;
@@ -200,6 +200,7 @@ body{
     /* Gradient: White top → Orange bottom */
     background:linear-gradient(
         to bottom,
+        #f17a03,
         #f17a03,
         #ffd6ab,
         #ffd6ab
@@ -610,6 +611,7 @@ body{
 }
 
 }
+
 
 
 

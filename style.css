@@ -183,6 +183,65 @@ body{
 
 }
 
+/* ===== Premium Gradient Glass Project Cards ===== */
+
+.project-container{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:320px;
+    padding:30px;
+
+    /* Gradient: White top → Orange bottom */
+    background:linear-gradient(
+        to bottom,
+        #f17a03,
+        #ffd6ab,
+        #ffd6ab
+    );
+
+    backdrop-filter:blur(882px);
+    -webkit-backdrop-filter:blur(162px);
+
+    border-radius:40px;
+
+    border:1px solid rgba(255,255,255,0.3);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.25),
+        0 0 30px rgba(241,122,3,0.2);
+
+    transition:0.2s ease;
+    text-align: center;
+}
+
+.project-card h3{
+    margin-bottom:10%;
+    color:#222;
+    font-weight:600;
+}
+
+.project-card p{
+    font-size:14px;
+    line-height:1.6;
+    text-align: center;
+    color:#333;
+}
+
+/* Premium Hover */
+.project-card:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:
+        0 30px 60px rgba(0,0,0,0.35),
+        0 0 40px rgba(241,122,3,0.4);
+}
+
+
 /* ================= Writing Page ================= */
 /* ================= Writing Page ================= */
 
@@ -551,6 +610,7 @@ body{
 }
 
 }
+
 
 
 
